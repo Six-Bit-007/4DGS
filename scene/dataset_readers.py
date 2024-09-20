@@ -84,7 +84,6 @@ def getNerfppNorm(cam_info):
     radius = diagonal * 1.1
 
     translate = -center
-    # breakpoint()
     return {"translate": translate, "radius": radius}
 
 
